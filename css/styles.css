@@ -1,3 +1,11 @@
-.logo {color: #2196F3;}
-.tittle {color: blue;}
-header {background-color: chartreuse;}
+/* основной цвет #212121 */
+/* белый #FFFFFF*/
+/* цвет акцент #2196F3 */
+/* вторичный цвет #757575 */
+/* вторичный фон #F5F4FA */
+/* цвет заголовка #2F303A */
+
+
+body {background-color: #E5E5E5; color: 757575;}
+.logo-first {color: #2196F3;}
+.logo-second {color: #000000;}
