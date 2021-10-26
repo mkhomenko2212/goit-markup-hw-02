@@ -1,18 +1,25 @@
-/* основной цвет #212121 */
+/* заголовка цвет #212121 */
 /* белый #FFFFFF*/
 /* цвет акцент #2196F3 */
-/* вторичный цвет #757575 */
+/* основной цвет #757575 */
 /* вторичный фон #F5F4FA */
 /* цвет заголовка #2F303A */
 
+:root {
+    --primary-text-color: #757575;
+    --tittle-color: #212121;
+    --accent-color: #2196F3;
+    --primary-background-color:  #E5E5E5;
+    --footer-color: #2F303A;
+}
 
-body {background-color: #E5E5E5; color: 757575;}
-.logo-first {color: #2196F3;}
+body {background-color: var(--primary-background-color); color: var(--primary-text-color);}
+.logo-first {color: var(--accent-color);}
 .logo-second {color: #000000;}
 .list {list-style: none;}
-.link {color: #212121;}
-.current {color:#2196F3;}
-.site-nav .link:hover, .site-nav .link:focus {color: #2196F3;}
-.link-adress {color:#757575 ;}
-.link-adress:hover, .link-adress:focus {color:#2196F3 ;}
-.advanture-list .tittle {color: #212121;}
+.link {color: var(--tittle-color);}
+.current {color: var(--accent-color);}
+.site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
+.link-adress {color: var(--primary-text-color) ;}
+.link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
+.advanture-list .tittle {color: var(--tittle-color);}
