@@ -26,6 +26,7 @@ body
 .logo-second {color: #000000;}
 .list {list-style: none;}
 .link {color: var(--tittle-color);}
+.link {text-decoration: none;}
 .current {color: var(--accent-color);}
 .site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
 .link-adress {color: var(--primary-text-color) ;}
