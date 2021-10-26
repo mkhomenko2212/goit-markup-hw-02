@@ -31,9 +31,6 @@ body
 .site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
 .link-adress {color: var(--primary-text-color) ;}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
-
-
-/* Шапка */
 .cap-tittle {color: var(--primary-white-color);}
 .cap {background-color: var(--footer-color);}
 
@@ -43,6 +40,8 @@ body
 /* Подвал */
 .footer .link-adress {color: var(--primary-white-color);}
 .footer .link-adress {text-decoration: none;}
+.footer .link-adress:hover, .link-adress:focus {color: var(--accent-color);}
+
 /* Button */
 .button {color: var(--primary-white-color);
 background-color: var(--accent-color);}
