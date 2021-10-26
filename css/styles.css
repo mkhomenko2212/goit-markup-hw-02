@@ -21,7 +21,7 @@ body
     
     }
 
-/* Шапка сайта */
+/* Header */
 .logo-first {color: var(--accent-color);}
 .logo-second {color: #000000;}
 .list {list-style: none;}
@@ -30,15 +30,21 @@ body
 .site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
 .link-adress {color: var(--primary-text-color) ;}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
+.site-nav .link .current {color: var(--accent-color);}
+
+
+/* Шапка сайта */
+
 .cap-tittle {color: var(--primary-white-color);}
 .cap {background-color: var(--footer-color);}
-.site-nav .link .current {color: var(--accent-color);}
+
 
 /* Преимущества */
 .advanture-list .tittle {color: var(--tittle-color);}
 
 /* Подвал */
 .footer .link-adress {color: var(--primary-white-color);}
+.footer {background-color: var(--footer-color);}
 
 /* Button */
 .button {color: var(--primary-white-color);
