@@ -32,7 +32,7 @@ body
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
 .cap-tittle {color: var(--primary-white-color);}
 .cap {background-color: var(--footer-color);}
-.link .current {color: var(--accent-color);}
+.site-nav .link .current {color: var(--accent-color);}
 
 /* Преимущества */
 .advanture-list .tittle {color: var(--tittle-color);}
