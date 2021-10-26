@@ -11,6 +11,7 @@
     --accent-color: #2196F3;
     --primary-background-color:  #E5E5E5;
     --footer-color: #2F303A;
+    --primary-white-color:#FFFFFF;
 }
 
 body 
@@ -32,4 +33,6 @@ body
 
 /* Преимущества */
 .advanture-list .tittle {color: var(--tittle-color);}
-.tittle p {color: var(--primary-text-color);}
+
+/* Подвал */
+.footer {color: var(--primary-white-color);}
