@@ -27,7 +27,7 @@ body
 .list {list-style: none;}
 .link {color: var(--tittle-color);}
 .link {text-decoration: none;}
-.current {color: var(--accent-color);}
+.site-nav .link .current {color: var(--accent-color);}
 .site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
 .link-adress {color: var(--primary-text-color) ;}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
