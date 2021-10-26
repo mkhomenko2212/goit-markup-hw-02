@@ -42,7 +42,7 @@ body
 
 /* Подвал */
 .footer .link-adress {color: var(--primary-white-color);}
-
+.footer .link-adress {text-decoration: none;}
 /* Button */
 .button {color: var(--primary-white-color);
 background-color: var(--accent-color);}
