@@ -46,6 +46,7 @@ body
 .footer .link-adress {color: var(--primary-white-color);}
 .footer .link-adress:focus, .link-adress:hover {color: var(--accent-color);}
 .footer {background-color: var(--footer-color);}
+.footer .logo-second {color: var(--primary-white-color);}
 
 /* Button */
 .button {color: var(--primary-white-color);
