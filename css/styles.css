@@ -36,7 +36,7 @@ body
 .advanture-list .tittle {color: var(--tittle-color);}
 
 /* Подвал */
-.footer .link {color: var(--primary-white-color);}
+.footer .link-adress {color: var(--primary-white-color);}
 
 /* Button */
 .button {color: var(--primary-white-color);
