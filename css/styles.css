@@ -35,4 +35,4 @@ body
 .advanture-list .tittle {color: var(--tittle-color);}
 
 /* Подвал */
-.footer {color: var(--primary-white-color);}
+.footer .link {color: var(--primary-white-color);}
