@@ -41,3 +41,4 @@ body
 /* Button */
 .button {color: var(--primary-white-color);
 background-color: var(--accent-color);}
+.button:hover, button:focus {background-color: #188CE8;}
