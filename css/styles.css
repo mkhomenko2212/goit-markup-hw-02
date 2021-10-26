@@ -13,7 +13,14 @@
     --footer-color: #2F303A;
 }
 
-body {background-color: var(--primary-background-color); color: var(--primary-text-color);}
+body 
+    { color: var(--primary-text-color);
+     background-color: var(--primary-background-color); 
+    
+    
+    }
+
+/* Шапка сайта */
 .logo-first {color: var(--accent-color);}
 .logo-second {color: #000000;}
 .list {list-style: none;}
@@ -22,4 +29,7 @@ body {background-color: var(--primary-background-color); color: var(--primary-te
 .site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
 .link-adress {color: var(--primary-text-color) ;}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
+
+/* Преимущества */
 .advanture-list .tittle {color: var(--tittle-color);}
+.tittle p {color: var(--primary-text-color);}
