@@ -32,6 +32,11 @@ body
 .link-adress {color: var(--primary-text-color) ;}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
 
+
+/* Шапка */
+.cap-tittle {color: var(--primary-white-color);}
+.cap {background-color: var(--footer-color);}
+
 /* Преимущества */
 .advanture-list .tittle {color: var(--tittle-color);}
 
