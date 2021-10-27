@@ -34,8 +34,8 @@ body
 .list {list-style: none;}
 .site-nav .link.current {color: var(--accent-color);}
 .site-nav .link {color: var(--tittle-color);}
+.site-nav .link:focus, .link:hover {color: var(--accent-color);}
 .link {text-decoration: none;}
-.site-nav .link:hover, .site-nav .link:focus, {color: var(--accent-color);}
 .link-adress {color: var(--primary-text-color) ;}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
 
