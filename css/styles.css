@@ -62,7 +62,12 @@ body
              font-weight: 900; 
              font-size: 44px;
             text-align: center;}
-.hero {background-color: var(--footer-color);}
+.hero {background-color: var(--footer-color);text-align: center;}
+
+/* Button */
+.button {color: var(--primary-white-color);
+background-color: var(--accent-color);}
+.button:hover, button:focus {background-color: #188CE8;}
 
 
 /* Преимущества */
@@ -77,10 +82,7 @@ body
 .footer {background-color: var(--footer-color);}
 .footer .logo-second {color: var(--primary-white-color);}
 
-/* Button */
-.button {color: var(--primary-white-color);
-background-color: var(--accent-color);}
-.button:hover, button:focus {background-color: #188CE8;}
+
 
 
 
