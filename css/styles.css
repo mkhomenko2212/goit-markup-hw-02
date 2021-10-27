@@ -24,7 +24,13 @@ body
     }
 
 /* Logo */
-.logo {font-family: Raleway, sans-serif;}
+.logo {
+       font-family: Raleway, sans-serif;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 1.17;
+
+     }
 .logo-first {color: var(--accent-color);}
 .logo-second {color: #000000;}
 
@@ -32,6 +38,11 @@ body
 /* Site nav */
 
 .list {list-style: none;}
+.site-nav .list {
+                 font-weight: 500;
+                 font-size: 16px;
+                 line-height: 1.17;
+}
 .site-nav .link.current {color: var(--accent-color);}
 .site-nav .link {color: var(--tittle-color);}
 .site-nav .link:focus, .link:hover {color: var(--accent-color);}
@@ -43,8 +54,8 @@ body
 
 /* Шапка сайта */
 
-.cap-tittle {color: var(--primary-white-color);}
-.cap {background-color: var(--footer-color);}
+.hero-tittle {color: var(--primary-white-color);}
+.hero {background-color: var(--footer-color);}
 
 
 /* Преимущества */
