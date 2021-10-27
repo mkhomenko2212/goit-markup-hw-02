@@ -4,6 +4,7 @@
 /* основной цвет #757575 */
 /* вторичный фон #F5F4FA */
 /* цвет заголовка #2F303A */
+/* фон #E5E5E5 */
 
 :root {
     --primary-text-color: #757575;
@@ -12,6 +13,7 @@
     --primary-background-color:  #E5E5E5;
     --footer-color: #2F303A;
     --primary-white-color:#FFFFFF;
+    --secondary-background-color: #F5F4FA;
 }
 
 body 
@@ -41,6 +43,9 @@ body
 
 /* Преимущества */
 .advanture-list .tittle {color: var(--tittle-color);}
+
+/* Наша команда */
+.team {background-color: var(--secondary-background-color);}
 
 /* Подвал */
 .footer .link-adress {color: var(--primary-white-color);}
