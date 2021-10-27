@@ -24,6 +24,7 @@ body
     }
 
 /* Header */
+.logo {font-family: Raleway;}
 .logo-first {color: var(--accent-color);}
 .logo-second {color: #000000;}
 .list {list-style: none;}
