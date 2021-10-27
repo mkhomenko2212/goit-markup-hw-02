@@ -62,4 +62,4 @@ background-color: var(--accent-color);}
 
 /* Страница Портфолио */
 
-.filter .list {list-style: none;}
+.filter.list {list-style: none;}
