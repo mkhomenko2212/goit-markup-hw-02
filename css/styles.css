@@ -61,6 +61,7 @@ body
 .hero-tittle {color: var(--primary-white-color);
              font-weight: 900; 
              font-size: 44px;
+             line-height: 1.17;
             text-align: center;}
 .hero {background-color: var(--footer-color);
       text-align: center;}
@@ -72,7 +73,10 @@ background-color: var(--accent-color);}
 
 
 /* Преимущества */
-.advantage-list .tittle {color: var(--tittle-color);}
+.advantage-list .tittle {color: var(--tittle-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.17;}
 
 
 /* Наша команда */
