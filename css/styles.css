@@ -57,3 +57,9 @@ body
 .button {color: var(--primary-white-color);
 background-color: var(--accent-color);}
 .button:hover, button:focus {background-color: #188CE8;}
+
+
+
+/* Страница Портфолио */
+
+.filter .list {list-style: none;}
