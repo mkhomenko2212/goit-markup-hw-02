@@ -47,14 +47,21 @@ body
 .site-nav .link {color: var(--tittle-color);}
 .site-nav .link:focus, .link:hover {color: var(--accent-color);}
 .link {text-decoration: none;}
-.link-adress {color: var(--primary-text-color) ;}
+.link-adress {color: var(--primary-text-color) ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
 
 
 
 /* Шапка сайта */
 
-.hero-tittle {color: var(--primary-white-color);}
+.hero-tittle {color: var(--primary-white-color);
+             font-weight: 900; 
+             font-size: 44px;
+            text-align: center;}
 .hero {background-color: var(--footer-color);}
 
 
