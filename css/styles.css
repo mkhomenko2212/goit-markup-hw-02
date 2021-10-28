@@ -29,6 +29,8 @@ body
        font-weight: 700;
        font-size: 26px;
        line-height: 1.17;
+       text-decoration: none;
+       letter-spacing: 0.03em;
 
      }
 .logo-first {color: var(--accent-color);}
@@ -42,6 +44,7 @@ body
                  font-weight: 500;
                  font-size: 16px;
                  line-height: 1.17;
+                 letter-spacing: 0.02em;
 }
 .site-nav .link.current {color: var(--accent-color);}
 .site-nav .link {color: var(--tittle-color);}
@@ -51,6 +54,8 @@ body
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .link-adress:hover, .link-adress:focus {color: var(--accent-color) ;}
 
@@ -62,13 +67,14 @@ body
              font-weight: 900; 
              font-size: 44px;
              line-height: 1.17;
+             letter-spacing: 0.06em;
             text-align: center;}
 .hero {background-color: var(--footer-color);
       text-align: center;}
 
 /* Button */
 .button {color: var(--primary-white-color);
-background-color: var(--accent-color);}
+        background-color: var(--accent-color);}
 .button:hover, button:focus {background-color: #188CE8;}
 
 
@@ -77,13 +83,41 @@ background-color: var(--accent-color);}
 font-weight: 700;
 font-size: 14px;
 line-height: 1.17;}
+.advantage-list .description {font-weight: 400;
+font-size: 14px;
+line-height: 1.71;}
 
+/* Чем мы занимаемся */
+.products-tittle {color: var(--tittle-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;}
 
 /* Наша команда */
 .team {background-color: var(--secondary-background-color);}
-
+.team-tittle {color: var(--tittle-color);
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;}
+.member-name {color: var(--tittle-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+.position {color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+}
 /* Подвал */
-.footer .link-adress {color: var(--primary-white-color);}
+.footer .link-adress {color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71}
+.footer .contact {color: rgba(255, 255, 255, 0.6)
+ ;}
 .footer .link-adress:focus, .link-adress:hover {color: var(--accent-color);}
 .footer {background-color: var(--footer-color);}
 .footer .logo-second {color: var(--primary-white-color);}
@@ -94,4 +128,26 @@ line-height: 1.17;}
 
 /* Страница Портфолио */
 
-.filter.list {list-style: none;}
+ /* Фильтр */
+
+.btn-filter {list-style: none;}
+.button {background-color: var(--secondary-background-color);
+        color: var(--tittle-color);}
+.btn-filter .button:hover, button:focus {color: var(--primary-white-color);}
+.btn-filter .button.active {background-color: var(--accent-color);
+                            color: var(--primary-white-color);}
+
+
+/* Проекты */
+.project-list {text-decoration: none;}
+
+.project-name {color: var(--tittle-color);
+ font-weight: 700;
+ font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;}
+
+.filter-name {color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;}
