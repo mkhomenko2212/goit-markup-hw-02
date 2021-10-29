@@ -115,14 +115,14 @@
     line-height: 1.17;
 }
 /* Подвал */
-.footer .link-adress {color: var(--primary-white-color);
+.page-footer .link-adress {color: var(--primary-white-color);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;}
-.footer .contact {color: rgba(255, 255, 255, 0.6);}
-.footer .link-adress:focus, .link-adress:hover {color: var(--accent-color);}
-.footer {background-color: var(--footer-color);}
-.footer .logo-second {color: var(--primary-white-color);}
+.page-footer .contact {color: rgba(255, 255, 255, 0.6);}
+.page-footer .link-adress:focus, .link-adress:hover {color: var(--accent-color);}
+.page-footer {background-color: var(--footer-color);}
+.page-footer .logo-second {color: var(--primary-white-color);}
 
 
 
