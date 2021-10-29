@@ -116,7 +116,6 @@
 }
 /* Подвал */
 .footer .link-adress {color: var(--primary-white-color);
-    font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;}
