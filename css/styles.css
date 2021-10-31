@@ -85,7 +85,8 @@
     line-height: 1.17;
 }
 
-.advantage-list .description {font-weight: 400;
+.advantage .description {color: var(--primary-text-color);
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
